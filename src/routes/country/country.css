@@ -24,6 +24,7 @@
   margin: auto;
   width: 100%;
   max-width: 1300px;
+  color: var(--color);
 }
 
 .countryFlag {
