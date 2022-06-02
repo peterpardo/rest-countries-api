@@ -1,0 +1,129 @@
+.countryContainer {
+  width: 100%;
+  max-width: 425px;
+  padding: 0 20px 20px 20px;
+  margin: auto;
+}
+
+.backLink {
+  display: inline-block;
+  background-color: var(--element-color);
+  text-decoration: none;
+  padding: 10px 30px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+  color: var(--color);
+  margin-bottom: 50px;
+}
+
+.backLink svg {
+  margin-right: 10px;
+}
+
+.loadingContainer {
+  margin: auto;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.countryFlag {
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+.countryFlag img {
+  width: 100%;
+  height: auto;
+}
+
+.countryName {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.countryDesc {
+  color: var(--color);
+}
+
+.cdWrapper > div {
+  margin-bottom: 30px;
+}
+
+.cdWrapper > div > p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.cdWrapper p {
+  font-size: 1rem;
+}
+
+.cdWrapper > div >  p > span:first-child {
+  font-weight: 600;
+}
+
+.countryBorder h1 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.borderWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 10px;
+}
+
+.border {
+  padding: 5px 10px;
+  text-align: center;
+  background-color: var(--element-color);
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 1024px) {
+  .countryContainer {
+    max-width: 1350px;
+  }
+
+  .countryWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .countryFlag {
+    margin: 0;
+  }
+
+  .countryName {
+    margin-bottom: 60px;
+  }
+
+  .countryDesc {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  .cdWrapper {
+    margin-bottom: 50px;
+  }
+
+  .cdWrapper > div > p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .cdWrapper > div {
+    margin: 0
+  }
+
+  .cdWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

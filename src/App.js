@@ -89,7 +89,7 @@ function App() {
         </div>
         
         {isLoading ? (
-          <p>Loading</p>
+          <p>Fetching Countries...</p>
         ): (
           <div className="cards">
           {countries.filter((country) => {
