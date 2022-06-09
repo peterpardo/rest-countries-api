@@ -20,6 +20,7 @@ nav {
 .navTitle {
   font-size: 16px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .themeBtn {
@@ -30,6 +31,7 @@ nav {
   background: transparent;
   font-weight: 600;
   color: var(--color);
+  cursor: pointer;
 }
 
 .themeBtn > svg {
